@@ -6,5 +6,7 @@ To use the script, simply clone the repository and run the script in your termin
 
 This script can be useful for anyone who needs to work with colors in a terminal environment or wants to explore the full range of ANSI colors available.
 
-![Screenshot of a terminal displaying the 256 ANSI color palette using a Python script.](colors-256.png)
+![Screenshot of a dark theme terminal displaying the 256 ANSI color palette using a Python script.](colors-256_dark.png)
+
+![Screenshot of a light theme terminal displaying the 256 ANSI color palette using a Python script.](colors-256_light.png)
 
