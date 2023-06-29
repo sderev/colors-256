@@ -18,7 +18,6 @@ def get_rgb(n):
         >>> get_rgb(42)
         (0, 215, 0)
     """
-
     # color look-up table
     # 8-bit, RGB hex
     primary_colors = [
@@ -302,7 +301,6 @@ def is_light(color):
     Returns:
         bool: True if the color is light, False otherwise.
     """
-
     r, g, b = get_rgb(color)
 
     # Contrast ratio with black
@@ -317,7 +315,6 @@ def contrast_ratio(color1, color2):
     Calculates the contrast ratio between two colors.
 
     Args:
-
         color1 (tuple): A tuple containing the RGB values of the first color.
         color2 (tuple): A tuple containing the RGB values of the second color.
 
